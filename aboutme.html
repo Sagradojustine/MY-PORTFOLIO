@@ -1,81 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="icon" type="image" href="icon.png" />
-
-    <style>
-        .nav-item {
-            padding-left: 200px;
-            padding-right: 200px;
-        }
-        .nav-item:hover {
-            background-color: hsl(327, 71%, 81%);
-            border-radius: 50px;
-        }
-        body {
-            background-color: #00ccdd;
-        }
-        .about-content {
-            text-align: center;
-            padding: 50px;
-            color: white;
-        }
-        .content-section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-            color: #fff;
-        }
-        .profile-picture {
-            border-radius: 50%;
-            width: 200px;
-            height: 200px;
-            margin-right: 20px;
-        }
-        .profile-info {
-            max-width: 500px;
-            text-align: left;
-        }
-    </style>
+  <title>My Portfolio - About Me</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm" style="background-color: #f5a2bd">
-        <div class="container-fluid">
-            <img src="logo.png" alt="logo" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" style="background-color: #ffb4e9; border-radius: 12px">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" style="background-color: ffb4e9; border-radius: 12px">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aboutme.html" style="background-color: ffb4e9; border-radius: 12px">About Me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="content-section">
-        <img src="Me.jpg" alt="Profile Picture" class="profile-picture" />
-        <div class="profile-info">
-            <h1>About Me</h1>
-            <p>Hello! I'm [Your Name], a passionate web developer with a love for creating intuitive and visually appealing websites. I specialize in front-end development, focusing on creating user-friendly interfaces that provide an excellent user experience.</p>
-            <p>In my free time, I enjoy learning new programming languages, exploring innovative design trends, and sharing my knowledge with others. I'm excited to connect with like-minded individuals and collaborate on inspiring projects!</p>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: pink;">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="image.png" alt="Logo" class="rounded-circle" style="height: 40px;" />
+        Home
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="container mt-0">
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-center align-items-start">
+        <img src="Me.jpg" alt="Myself" class="img-fluid rounded" />
+      </div>
+      <div class="col-md-6 d-flex align-items-center justify-content-center text-center">
+        <div>
+          <h1>Justine Britney Irish C. Sagrado</h1>
+        </div>
+      </div>      
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
